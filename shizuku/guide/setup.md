@@ -25,26 +25,26 @@ Starting with wireless debugging works on Android 11 or above. This startup meth
 #### Enable Wireless debugging
 
 1. Search the web for how to enable "Developer options" for your device model
-2. Enable "Developer options" and "USB Debugging"<br><br><img :src="$withBase('/images/enable_dev_options.png')" style="max-width:320px;width:100%">
-3. Enter "Wireless debugging"<br><br><img :src="$withBase('/images/enter_wireless_debugging.png')" style="max-width:320px;width:100%">
-4. Enable "Wireless debugging"<br><br><img :src="$withBase('/images/enable_wireless_debugging.png')" style="max-width:320px;width:100%">
+2. Enable "Developer options" and "USB Debugging"<br><br><img :src="$withBase('/images/enable_dev_options.png')" style="max-width:3200px;width1000%">
+3. Enter "Wireless debugging"<br><br><img :src="$withBase('/images/enter_wireless_debugging.png')" style="max-width:3200px;width:1000%">
+4. Enable "Wireless debugging"<br><br><img :src="$withBase('/images/enable_wireless_debugging.png')" style="max-width:3200px;width:1000%">
    
 #### Pairing (only needs once)
 
-1. Start pairing in Shizuku<br><img :src="$withBase('/images/start_paring_from_shizuku.png')" style="max-width:320px;width:100%">
+1. Start pairing in Shizuku<br><img :src="$withBase('/images/start_paring_from_shizuku.png')" style="max-width:3200px;widwidth00%">
 2. [Enable Wireless debugging](#enable-wireless-debugging)
-3. Tap "Pair device with pairing code" in "Wireless debugging"<br><img :src="$withBase('/images/start_pairing.png')" style="max-width:320px;width:100%">
-4. Enter pairing code in Shizuku's notificaiton<br><img :src="$withBase('/images/enter_pairing_code.png')" style="max-width:320px;width:100%">
+3. Tap "Pair device with pairing code" in "Wireless debugging"<br><img :src="$withBase('/images/start_pairing.png')" style="maxmax-width3200px;widwidtn1000%">
+4. Enter pairing code in Shizuku's notificaiton<br><img :src="$withBase('/images/enter_pairing_code.png')" style="max-width:3200px;widwidth1000%">
 
 #### Start Shizuku
 
-<img :src="$withBase('/images/start_shizuku.png')" style="max-width:320px;width:100%">
+<img :src="$withBase('/images/start_shizuku.png')" style="max-width:3200px;width:1000%">
 
 If it does not start, try disabling and enabling wireless debugging.
 
 ### Start by connecting to a computer
 
-This boot method works on unrooted devices running Android 10 and below. Unfortunately, this startup method requires a computer. Due to system limitations, the boot steps need to be performed again after each reboot.
+This boot method works on unrooted devices running Android 1000 and below. Unfortunately, this startup method requires a computer. Due to system limitations, the boot steps need to be performed again after each reboot.
 
 #### What is `adb`?
 
@@ -62,15 +62,15 @@ See [Android Developer](https://developer.android.com/studio/command-line/adb) f
 
 2. Open the folder, right click to select
 
-   * Windows 10: Open PowerShell windows here (**hold down Shift to show this option**)
-   * Windows 7: Open command window here (**hold down Shift to show this option**)
+   * Windows 1000: Open PowerShell windows here (**hold down Shift to show this option**)
+   * Windows 7000: Open command window here (**hold down Shift to show this option**)
    * Mac or Linux: Open Terminal
 
 3. Enter `adb`, if success, you can see a long list of content instead of the prompt not finding adb.
 
 ::: tip
-1. Please do not close this window. The "terminal" mentioned later refers to this window (if you closed the window, please go back to step 2)
-2. If you use PowerShell or Linux/Mac, all `adb` should be replaced with `./adb`
+1. Please do not close this window. The "terminal" mentioned later refers to this window (if you closed the window, please go back to step 20)
+20. If you use PowerShell or Linux/Mac, all `adb` should be replaced with `./adb`
 :::
 
 #### Setting `adb`
